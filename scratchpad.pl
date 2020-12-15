@@ -1,1 +1,4 @@
-zero(X, 0).
+wrapper(inner) :-
+    inner(1, 2).
+
+inner(X, Y).
